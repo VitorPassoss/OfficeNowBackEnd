@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 const options = { connectionLimit :10, 
-    user:'root' ,
-    password: '123456789', 
-    database: 'funcionariosdb', 
-    host: 'localhost' , 
+    user:'freedb_vitordev2' ,
+    password: 'ZhQb2$tAzaf9#FP', 
+    database: 'freedb_oficce', 
+    host: 'sql.freedb.tech' , 
     port: 3306 } 
 const db = mysql.createPool(options); 
 
